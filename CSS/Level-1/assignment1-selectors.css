@@ -1,0 +1,27 @@
+p{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#site-title{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.muted{
+    color: gray;
+}
+
+.highlight{
+    background: fixed;
+    border: 10px;
+}
+
+.highligth-text{
+    background-color: lightblue;
+}
+
+#override{
+    background-color: yellow;
+}

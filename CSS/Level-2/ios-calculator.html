@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .main{
+            background-color: rgb(41, 41, 41);
+            height: 850px;
+            width: 550px;
+            margin-top: 150px;
+            margin-left: 250px;
+        }
+
+        .num{
+            color: white;
+            font-size: 180px;
+            text-align: right;
+            
+        }
+
+        .r{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .gc1{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: gray;
+            margin-top: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            column-gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gc2{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: gray;
+            margin-top: 25px;
+            text-align: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gy1{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: rgb(230, 185, 19);
+            margin-top: none;
+            text-align: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gy2{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: rgb(230, 185, 19);
+            margin-top: 25px;
+            text-align: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cw{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .long{
+            background-color: gray;
+            height: 100px;
+            width: 230px;
+            row-gap: 10px;
+            border-radius: 100px;
+            margin-top: 25px;
+            font-size: 35px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+            
+        .zero{
+margin-left: 25px;
+        }
+        
+
+        
+        
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="num">7744</div>
+        <div class="row">
+            
+            <div class="gc1">C</div>
+            <div class="gc1">+/-    </div>
+            <div class="gc1">%</div>
+            <div class="gy1 cw">/</div>
+        
+        </div>
+
+        <div class="row">
+            
+            <div class="gc2 cw">7</div>
+            <div class="gc2 cw">8</div>
+            <div class="gc2 cw">9</div>
+            <div class="gy2 cw">*</div>
+        
+        </div>
+
+        <div class="row">
+            
+            <div class="gc2 cw">4</div>
+            <div class="gc2 cw">5</div>
+            <div class="gc2 cw">6</div>
+            <div class="gy2 cw">-</div>
+        
+        </div>
+
+        <div class="row">
+            
+            <div class="gc2 cw">1</div>
+            <div class="gc2 cw">2</div>
+            <div class="gc2 cw">3</div>
+            <div class="gy2 cw">+</div>
+        
+        </div>
+
+        <div class="row">
+            
+            <div class="long">
+                <div class="zero">0</div>
+            </div>
+            <div class="gc2 cw">,</div>
+            <div class="gy2 cw">=</div>
+        
+        </div>
+    </div>
+</body>
+</html>

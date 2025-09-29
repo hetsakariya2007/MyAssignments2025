@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: aliceblue;
+            height: 3300px;
+            width: 2185px;
+        }
+
+        .mleft{
+            margin-left: 100px;
+        }
+
+        .mtop{
+            margin-top: 250px;
+        }
+
+        .disflex{
+            display: flex;
+        }
+
+        .logo{
+            background-image: url(./kw-logo.png);
+            height: 40px;
+            width: 250px;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .cart{
+            background-image: url(./cart-icon.png);
+            height: 40px;
+            width: 49px;
+            background-size: cover;
+            margin-top: 20px;
+            margin-left: 1600px;
+        }
+
+        .head{
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 27px;
+            margin-left: 1px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .backimg{
+            background-image: url(./kw-background.png);
+            height: 700px;
+            width: auto;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .text{
+            font-weight: bold;
+            color: white;
+            font-size: 80px;
+        }
+
+        .subtext{
+            color: white;
+            font-size: 28px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .head2{
+            font-size: 29px;
+            font-weight: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .im{
+            height: 335px;
+            width: 245px;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .im1{
+            background-image: url(./book1.png);
+        }
+
+        .im2{
+            background-image: url(./book2.png);
+        }
+
+        .im3{
+            background-image: url(./book3.png);
+        }
+
+        .im4{
+            background-image: url(./book4.png);
+        }
+
+        .im5{
+            background-image: url(./book5.png);
+        }
+
+        .im6{
+            background-image: url(./book6.png);
+        }
+
+        .bdetail1{
+            font-weight: bold;
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .bdetail2{
+            font-size: 20px;
+            color: gray;
+            margin-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .bdetail3{
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .bdetail4{
+            height: 40px;
+            width: 80px;
+            background-color: rgb(105, 140, 255);
+            margin-top: 20px;
+            margin-left: 85px;
+            border-radius: 5px;
+        }
+
+        .add{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 19px;
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+
+        .whitecart{
+            background-image: url(./cart-icon-white.png);
+            height: 22px;
+            width: 25px;
+            background-size: cover;
+            margin-top: 8px;
+            margin-left: 5px;
+        }
+
+        .head3{
+            font-size: 26px;
+            font-weight: bold;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .img{
+            height: 380px;
+            width: 420px;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .img1{
+            background-image: url(./dart-board.png);
+        }
+
+        .img2{
+            background-image: url(./connect-four\ \(1\).png);
+        }
+
+        .img3{
+            background-image: url(./jenga.png);
+        }
+
+        .img4{
+            background-image: url(./monopoly.png);
+        }
+
+        .gdetail2{
+            font-size: 18px;
+        }
+
+        .gdetail4{
+            margin-left: 240px;
+        } 
+
+        .image{
+            height: 380px;
+            width: 420px;
+            background-size: cover;
+            margin-top: 20px;
+        }
+
+        .image1{
+            background-image: url(./bookmarks.png);
+        }
+
+        .image2{
+            background-image: url(./birthday-card.png);
+        }
+        
+        .image3{
+            background-image: url(./stuffed-toy.png);
+        }
+
+        .image4{
+            background-image: url(./dream-catcher.png);
+        }
+
+        .ml{
+            margin-left: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="disflex">
+            <div class="logo mleft"></div>
+            <div class="cart"></div>
+            <div class="head">Cart items(0)</div>
+        </div>
+        <div class="backimg">
+            <div class="text mleft"><br>
+                Shop. <br>
+                Have Fun. <br>
+                Repeat. <br>
+            </div>
+            <div class="subtext mleft">#NewAndNow</div>
+        </div>
+        <div>
+            <div class="head2 mleft mtop">Discover New Books</div>
+            <div>
+                <div class="disflex">
+                    <div>
+                        <div class="im im1 mleft"></div>
+                        <div class="bdetail1 mleft">This was our pact</div>
+                        <div class="bdetail2 mleft">Ryan Andrews</div>
+                        <div class="disflex">
+                        <div class= "bdetail3 mleft">$7.49</div>
+                        <div class="bdetail4 disflex">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bmleft">
+                        <div class="im im2 mleft"></div>
+                        <div class="bdetail1 mleft">This famous five</div>
+                        <div class="bdetail2 mleft">Guid Biyton</div>
+                        <div class="disflex">
+                        <div class= "bdetail3 mleft">$4.59</div>
+                        <div class="bdetail4 disflex">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bmleft">
+                        <div class="im im3 mleft"></div>
+                        <div class="bdetail1 mleft">Matlida</div>
+                        <div class="bdetail2 mleft">Roald Dahi</div>
+                        <div class="disflex">
+                        <div class= "bdetail3 mleft">$6.80</div>
+                        <div class="bdetail4 disflex">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bmleft">
+                        <div class="im im4 mleft"></div>
+                        <div class="bdetail1 mleft">Harry Potter</div>
+                        <div class="bdetail2 mleft">JK Rowling</div>
+                        <div class="disflex">
+                        <div class="bdetail3 mleft">$10</div>
+                        <div class="bdetail4 disflex ml">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bmleft">
+                        <div class="im im5 mleft"></div>
+                        <div class="bdetail1 mleft">For Young Readers</div>
+                        <div class="bdetail2 mleft">Ruskin Bond</div>
+                        <div class="disflex">
+                        <div class= "bdetail3 mleft">$7.29</div>
+                        <div class="bdetail4 disflex">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bmleft">
+                        <div class="im im6 mleft"></div>
+                        <div class="bdetail1 mleft">Wimpy Kid - DIY</div>
+                        <div class="bdetail2 mleft">Jeff Kinney</div>
+                        <div class="disflex">
+                        <div class= "bdetail3 mleft">$4.99</div>
+                        <div class="bdetail4 disflex">
+                            <div class="add">Add</div>
+                            <div class="whitecart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="head3 mleft mtop">Discover New Games</div>
+            <div>
+                <div class="disflex">
+                    <div>
+                        <div class="img img1 mleft"></div>
+                        <div class="bdetail1 mleft">Dart Board</div>
+                        <div class="bdetail2 gdetail2 mleft">Wooden board, 16 inches</div>
+                        <div class="disflex">
+                            <div class="bdetail3 mleft  ">$17.49</div>
+                            <div class="bdetail4 gdetail4 disflex">
+                                <div class="add">Add</div>
+                                <div class="whitecart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="gmleft">
+                        <div class="img img2 mleft"></div>
+                        <div class="bdetail1 mleft">Connect 4</div>
+                        <div class="bdetail2 gdetail2 mleft">Board game, multiplayer</div>
+                        <div class="disflex">
+                            <div class="bdetail3 mleft  ">$19.99</div>
+                            <div class="bdetail4 gdetail4 disflex">
+                                <div class="add">Add</div>
+                                <div class="whitecart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="gmleft">
+                        <div class="img img3 mleft"></div>
+                        <div class="bdetail1 mleft">Jenga</div>
+                        <div class="bdetail2 gdetail2 mleft">Wooden blocks, 54 pieces</div>
+                        <div class="disflex">
+                            <div class="bdetail3 mleft  ">$20.99</div>
+                            <div class="bdetail4 gdetail4 disflex">
+                                <div class="add">Add</div>
+                                <div class="whitecart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="gmleft">
+                        <div class="img img4 mleft"></div>
+                        <div class="bdetail1 mleft">Monopoly</div>
+                        <div class="bdetail2 gdetail2 mleft">1.61 x 15.75 x 10.51 inches</div>
+                        <div class="disflex">
+                            <div class="bdetail3 mleft  ">$19.49</div>
+                            <div class="bdetail4 gdetail4 disflex">
+                                <div class="add">Add</div>
+                                <div class="whitecart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <div class="head3 mleft mtop">Handmade with love</div>
+                <div>
+                    <div class="disflex">
+                        <div>
+                            <div class="image image1 mleft"></div>
+                            <div class="bdetail1 mleft">Bookmarks</div>
+                            <div class="bdetail2 gdetail2 mleft">Handmade with love</div>
+                            <div class="disflex">
+                                <div class="bdetail3 mleft  ">$12.49</div>
+                                <div class="bdetail4 gdetail4 disflex">
+                                    <div class="add">Add</div>
+                                    <div class="whitecart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="gmleft">
+                            <div class="image image2 mleft"></div>
+                            <div class="bdetail1 mleft">Birthday cards</div>
+                            <div class="bdetail2 gdetail2 mleft">Handmade with love</div>
+                            <div class="disflex">
+                                <div class="bdetail3 mleft  ">$19.99</div>
+                                <div class="bdetail4 gdetail4 disflex">
+                                    <div class="add">Add</div>
+                                    <div class="whitecart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="gmleft">
+                            <div class="image image3 mleft"></div>
+                            <div class="bdetail1 mleft">Stuffed toys</div>
+                            <div class="bdetail2 gdetail2 mleft">Handmade with love</div>
+                            <div class="disflex">
+                                <div class="bdetail3 mleft  ">$20.99</div>
+                                <div class="bdetail4 gdetail4 disflex">
+                                    <div class="add">Add</div>
+                                    <div class="whitecart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="gmleft">
+                            <div class="image image4 mleft"></div>
+                            <div class="bdetail1 mleft">Dream catcher drawing</div>
+                            <div class="bdetail2 gdetail2 mleft">Handmade with love</div>
+                            <div class="disflex">
+                                <div class="bdetail3 mleft  ">$19.49</div>
+                                <div class="bdetail4 gdetail4 disflex">
+                                    <div class="add">Add</div>
+                                    <div class="whitecart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

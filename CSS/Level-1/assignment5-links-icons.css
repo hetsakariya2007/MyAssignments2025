@@ -1,0 +1,53 @@
+body 
+{ 
+    font-family: Roboto, sans-serif; background: lightsalmon;  
+}
+
+.primary-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: blue;
+    outline: 3px solid rgba(30,136,229,0.25); outline-offset: 3px;
+}
+
+.nav-link:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.nav-link:active{
+    color: red;
+    text-decoration: none;
+}
+
+.sample-link{
+    color: blue;
+    outline: 3px solid rgba(30,136,229,0.25); outline-offset: 3px;
+}
+
+.sample-link:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.sample-link:active{
+    color: red;
+    text-decoration: none;
+}
+
+.sample-link:visited{
+    color: gray;
+    
+}
+
+.icon-link::before{
+    border: 1px solid blck;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    padding: left;
+
+}
