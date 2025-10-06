@@ -8,4 +8,4 @@ else if(n>0){
 }
 else{
     console.log("Invalid age");
-}
+}AC
