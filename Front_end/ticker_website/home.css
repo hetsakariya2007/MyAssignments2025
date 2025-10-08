@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    box-sizing: content-box;
+}
+.top{
+    height: 50px;
+    background-color:  rgb(218, 227, 255);
+}
+.Top{
+    margin-top: 10px;
+}
+.nav{
+    height: 10vmin;
+    width: auto;
+    background-color: rwhite;
+}
+.disflex{
+    display: flex;
+}
+.logo{
+    background-image: url(https://assets.finology.in/ticker/images/tickerlogo.svg);
+    height: 80px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.search{
+    height: 70px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 2px solid #b6c8ff;
+    border-radius: 100px;
+}
+.icon{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.texts{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navmset{
+    margin-left: 300px;
+}
+.mleft{
+    margin-left: 30px;
+}
+.mtop{
+    margin-top: 40px;
+}
+.purple{
+    color: blueviolet;
+}
+.blue{
+    color: rgb(59, 105, 255);
+}
+.white{
+    color: white;
+}
+.green{
+    color: #00c400;
+}
+.navbox{
+    background-color: rgb(218, 227, 255);
+    height: 50px;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lock{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.taj{
+    margin-top: 40px;
+    margin-right: -20px;
+}
+.bluebox{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.tsize{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tsize{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.arrow{
+    margin-top: 10px;
+}
+.space{
+    margin-left: 10px;
+}
+.Space{
+    margin-left: 5px;
+}
+.hleft{
+    margin-left: 50px;
+}
+.shleft{
+    margin-left: 160px;
+}
+.tcenter{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.head{
+    font-size: 60px;
+    margin-top: 400px;
+    margin-top: 20px;
+}
+.border{
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 2380px;
+    margin-top: 20px;
+}
+.subhead{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.searchbar{
+    font-size: 30px;
+    color: rgb(189, 189, 189);
+}
+.set{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.set1{
+    margin-top: 40px;
+    margin-left: 10px;
+}
